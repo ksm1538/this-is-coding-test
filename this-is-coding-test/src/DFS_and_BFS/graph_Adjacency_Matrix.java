@@ -1,6 +1,6 @@
 package DFS_and_BFS;
 
-public class dfs_Adjacency_Matrix {
+public class graph_Adjacency_Matrix {
 
 	public static final int INFINITE = 999999999;
     
