@@ -17,6 +17,7 @@ public class count_sort {
 			cntArr[arr[i]]++;
 		}
 				
+		System.out.print("정렬 결과 : ");
 		// 기록된 리스트를 아래와 같이 출력
 		for(int i=0;i<cntArr.length;i++) {
 			for(int j=0; j<cntArr[i];j++) {

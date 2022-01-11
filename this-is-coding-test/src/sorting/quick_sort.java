@@ -9,6 +9,7 @@ public class quick_sort {
 		// 퀵 정렬 함수 호출
 		quick_sort(arr, 0, arr.length-1);
 		
+		System.out.print("정렬 결과 : ");
 		// 정렬된 배열 출력
 		for(int i=0; i<arr.length;i++) {
 			System.out.print(arr[i]+" ");
