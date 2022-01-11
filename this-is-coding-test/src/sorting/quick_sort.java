@@ -35,6 +35,7 @@ public class quick_sort {
 		
 		
 		// 엇갈릴 때까지 반복
+		// 엇갈리다? pivot보다 작은 데이터의 index가 pivot보다 큰 데이터의 index보다 큰 경우를 말한다.
 		while(left <= right) {
 			
 			// pivot 보다 큰 수 찾기 (index 찾기)
