@@ -35,12 +35,19 @@ public class two_Arrays_Change {
 			arrB[i] = Integer.parseInt(st.nextToken());
 		}
 		
+		// arrA를 오름차순 정렬 
 		Arrays.sort(arrA);
+		
+		// arrB를 오름차순 정렬 
 		Arrays.sort(arrB);
 		
+		// swap count
 		int count = 0;
+		
+		// arrA의 가장 작은 원소가 arrB의 가장 큰 원소보다 작다면 Swap
 		for(int i=0; i<N; i++) {
 			for(int j=N-1; j>=0; j--) {
+				// swap count가 k일 떄 탈
 				if(count == K) {
 					break;
 				}
