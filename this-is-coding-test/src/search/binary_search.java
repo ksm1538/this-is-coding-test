@@ -26,7 +26,7 @@ public class binary_search {
 		// 정렬 
 		Arrays.sort(intArr);
 		
-		int result = binary_search(intArr, 0, N, target);
+		int result = binary_search(intArr, 0, N-1, target);
 		
 		if(result == -1) {
 			System.out.println("찾지 못함!");
