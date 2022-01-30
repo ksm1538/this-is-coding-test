@@ -7,24 +7,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-class Node {
+// Node클래스는 effective_dijkstra.java 에서 선언함
 
-    private int index;
-    private int distance;
-
-    public Node(int index, int distance) {
-        this.index = index;
-        this.distance = distance;
-    }
-
-    public int getIndex() {
-        return this.index;
-    }
-
-    public int getDistance() {
-        return this.distance;
-    }
-}
 
 public class simple_dijkstra {
 	// 무한을 의미하는 값으로 10억 설정
