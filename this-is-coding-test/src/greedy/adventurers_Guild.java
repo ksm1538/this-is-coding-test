@@ -15,6 +15,7 @@ public class adventurers_Guild {
         	arr[i]=(sc.nextInt());
         }
 
+        // 배열 정렬
         Arrays.sort(arr);
 
         int result = 0; // 총 그룹의 수

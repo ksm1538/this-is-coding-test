@@ -16,6 +16,7 @@ public class cant_Make_Price_2 {
 			arr[i] = sc.nextInt();
 		}
 		
+		// 배열 정렬
 		Arrays.sort(arr);
 		
 		int target = 1;

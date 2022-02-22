@@ -11,7 +11,7 @@ public class reverse {
 		
 		String str = sc.nextLine();
 		
-		// 0으로 이루어진 그룹과 1로 이루어진 그룹 중 적은 그룹의 수를 찾으면 해결 가
+		// 0으로 이루어진 그룹과 1로 이루어진 그룹 중 적은 그룹의 수를 찾으면 해결 가능
 		// 그룹? 연속된 숫자의 모임
 
 		int count0 = 0;	// 0의 그룹 카운 
@@ -40,7 +40,7 @@ public class reverse {
 			}
 		}
 		
-		//결과 출
+		//결과 출력
 		if(count0>count1) {
 			System.out.println(count1);
 		}else {
