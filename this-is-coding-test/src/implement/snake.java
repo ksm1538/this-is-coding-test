@@ -100,7 +100,7 @@ public class snake {
 				q.offer(new Snake(tempX, tempY));
 				map[tempX][tempY] = 1;
 			}
-			// 사과가 아닌 경우
+			// 사과가 아닌 경우 
 			else {
 				// 머리 증가하고 꼬리 삭제
 				q.offer(new Snake(tempX, tempY));
